@@ -2,26 +2,68 @@
 
 body {
   font-family: 'Poppins';
-  background-color: red;
-  width: 600px;
+  width: 700px;
   height: auto;
 
 }
 
-.npmLogo {}
+h4 {
+  color: red;
+}
+.npmLogo {
+  width: 50px;
+}
+
+.lettersNifty {}
 
 .join {}
+
 .search {}
+
 .h1 {}
+
 .text1 {}
-.red but {}
-.white butn {}
-.section1 {
-  background-color: gray;
+
+.redBtn {
+  background-color: rgb(207, 72, 72);
+  color: white;
+  padding: 10px 15px;
+  width: 150px;
+  border: none;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, .2)
 }
-.hexagon{}
-.section2{}
-.last btn{}
+
+.whiteBtn {
+  background-color: white;
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+}
+
+.section1 {
+  background-color: rgb(243, 234, 234);
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(145, 141, 141);
+}
+
+.hexagon {
+  width: 180px;
+  height: auto;
+
+}
+
+.item {
+  width: 25%;
+
+}
+
+.section2 {}
+
+.lastBtn {}
+
 header>div {
   padding: 0 25px;
   display: flex;
@@ -31,10 +73,10 @@ header>div {
 }
 
 nav {
-  width: 600px;
+  width: 400px;
 }
 
-nav ul {
+.navUl {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -47,6 +89,6 @@ nav a {
 }
 
 .blackHeart {
-  width: 5px;
+  width: 20px;
   margin-right: 1rem;
 }
